@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1581707930872.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1186928449",
+    "id" : "BBFA79D9",
+    "lastKnownWriteTime" : 1581707939,
+    "last_content_update" : 1581707952074,
+    "path" : "~/Desktop/Testing_Shiny/tests.R",
+    "project_path" : "tests.R",
+    "properties" : {
+        "cursorPosition" : "17,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

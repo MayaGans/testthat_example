@@ -1,15 +1,12 @@
 library(shiny)
 
-ui <- fluidRow(title = "Minimal App",
-               numericInput("num_input", "Please insert a number:", 0),
-               textOutput('text_out'),
+ui <- fluidRow(numericInput("num_input", "Sepal Length Greater Than", min = 4.3, value = 6, max = 7.9),
+               tableOutput("summary"),
                textOutput('static_text'))
 
 server <- function(input, output) {
   
-  result <- reactive(input$num_input^2)
-  output$text_out <- renderText(paste("The square of the number n = ", result()))
-  
+  output$summary <- renderTable(iris %>% filter(Sepal.Length > input$num_input))
   output$static_text <- renderText("This is just text")
 }
 

@@ -5,7 +5,7 @@ context("Test Shiny app")
 
 app <- ShinyDriver$new(".")
 
-test_that("output is correct", {
+test_that("text_out correct", {
   # set num_input to 30
   app$setInputs(num_input = 30)
   # get text_out

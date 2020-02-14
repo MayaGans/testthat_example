@@ -1,5 +1,8 @@
 # Using testthat and shinytest with Shiny
 
+- [X] Test one is very basic, making sure a string is the expected string
+- [X] Test two doesn't quite work yet, expecting a dataframe but showing as not the same when I think they are?
+
 - [X] Create test folder containing tests
   - How should this be structured? 
   - Does each test belong in its own file (as I have it)? 

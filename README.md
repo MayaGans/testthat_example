@@ -1,5 +1,7 @@
 # Using testthat and shinytest with Shiny
 
+Simple Shiny app to create two tests: (1) one for just simple text printing correctly, and another (2) where a dataframe is being filtered based on a numeric input value [the test is to make sure the filtered table matches the expected table].
+
 
 ##### TEST FOLDER:
 - [X] Test one is very basic, making sure a string is the expected string

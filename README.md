@@ -5,7 +5,7 @@ Simple Shiny app to create two tests: (1) one for just simple text printing corr
 
 ##### TEST FOLDER:
 - [X] Test one is very basic, making sure a string is the expected string
-- [ ] Test two doesn't quite work yet, expecting a dataframe but showing as not the same when I think they are?
+- [X] Test two requires turning a `renderTable` output from an HTML string into a dataframe, then we can compare that dataframe to our expected output.
 
 ##### QUESTIONS
   - How should the folder be structured? 

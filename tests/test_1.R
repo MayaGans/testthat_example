@@ -1,7 +1,7 @@
 library(shinytest)
 library(testthat)
 
-context("Test Shiny app")
+context("Test text output")
 
 app <- ShinyDriver$new(".")
 
